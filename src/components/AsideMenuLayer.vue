@@ -2,7 +2,7 @@
 import { mdiClose } from '@mdi/js'
 import AsideMenuList from '@/components/AsideMenuList.vue'
 import BaseIcon from '@/components/BaseIcon.vue'
-import PremiumVersionBadge from './PremiumVersionBadge.vue'
+
 
 defineProps({
   menu: {

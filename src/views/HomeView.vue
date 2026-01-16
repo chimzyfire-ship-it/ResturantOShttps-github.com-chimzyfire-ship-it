@@ -25,7 +25,7 @@ import NotificationBar from '@/components/NotificationBar.vue'
 import BaseButton from '@/components/BaseButton.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
-import SectionBannerStarOnGitHub from '@/components/SectionBannerStarOnGitHub.vue'
+
 import CardBoxBranchPerformance from '@/components/CardBoxBranchPerformance.vue'
 
 const chartData = ref(null)
