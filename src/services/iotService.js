@@ -18,14 +18,14 @@ export const iotService = {
         'postgres_changes',
         { event: 'INSERT', schema: 'public', table: 'sensor_logs' },
         (payload) => {
-          console.log('Realtime Update:', payload)
+
           // Payload format: { new: { branch_id: '...', sensor_type: '...', value: ... } }
           restaurantStore.updateSensorData(payload.new)
         }
       )
       .subscribe()
       
-     console.log('IoT Service: Listening for Supabase Realtime updates...')
+
   },
 
   disconnect() {

@@ -55,7 +55,7 @@ export const iotSimulation = {
            console.warn('Mock Hardare: Write failed (expected if DB not setup). Falling back to local dispatch simulation.', error)
            this.fallbackDispatch(payload)
         } else {
-           console.log(`Mock Hardware: Sent ${payload.sensor_type} -> ${payload.value} for ${branchId}`)
+           // console.log(`Mock Hardware: Sent ${payload.sensor_type} -> ${payload.value} for ${branchId}`)
         }
       } catch (err) {
         console.warn('Mock Hardware: Error', err)

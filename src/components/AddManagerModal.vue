@@ -29,7 +29,7 @@ const branchOptions = [
 
 const submit = () => {
     // In a real app, this would send an INVITE via SMS/WhatsApp
-    console.log("Registering Manager:", form.value)
+    // console.log("Registering Manager:", form.value)
     emit('confirm', form.value)
     emit('update:modelValue', false)
     // Reset

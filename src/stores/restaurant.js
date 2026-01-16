@@ -16,7 +16,7 @@ export const useRestaurantStore = defineStore('restaurant', () => {
     supabase
       .channel('public:sensor_logs')
       .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'sensor_logs' }, payload => {
-        // console.log('Realtime update:', payload.new)
+
         updateSensorData(payload.new)
       })
       .subscribe()
@@ -96,7 +96,7 @@ export const useRestaurantStore = defineStore('restaurant', () => {
              rice: payload.jollof // Using jollof input for rice stock
          }
          // We could also log the cash count diff here
-         console.log(`Closing Report for ${branchId}:`, payload)
+          // console.log(`Closing Report for ${branchId}:`, payload)
          
          branchMetrics.value[branchId].lastUpdate = Date.now()
      }
@@ -254,7 +254,7 @@ export const useRestaurantStore = defineStore('restaurant', () => {
         // This is a computed property getter in the original, so we can't easily 'set' it without changing logic.
         // For now, let's just log it or toggle a dummy state if we wanted to be proper.
         // But the user just wants the button to work.
-        console.log("Fetching history for:", filter)
+        // console.log("Fetching history for:", filter)
     }
 
   return {
