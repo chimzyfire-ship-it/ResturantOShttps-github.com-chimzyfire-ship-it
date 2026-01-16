@@ -35,11 +35,36 @@ Unapologetically modern. Built for speed, scale, and "wow" factor.
 ## 🚀 Key Modules
 
 ### 1. Central Command Dashboard
+**The Nerve Center.** Real-time aggregation of sales, diesel levels, and system alerts.
+
+<div align="center">
+    <img src="assets/dashboard-desktop.png" width="100%" alt="Desktop Dashboard" style="border-radius: 10px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
+</div>
+<br/>
+
+<div align="center">
+    <img src="assets/dashboard-mobile.png" width="250" alt="Mobile Dashboard" style="border-radius: 20px; border: 4px solid #333;">
+</div>
+
 *   **Live Aggregation**: Real-time sales data streaming from all branches.
 *   **Interactive Trends**: Dynamic filtering for "Lunch Rush", "Dinner Service", and historical lookbacks.
 *   **"No Data" Grace handling**: Smart UI states for missing data periods.
 
-### 2. IoT "Ghost" Telemetry
+### 2. Live Branch Monitor
+**Operational Awareness.** Granular view of each branch's performance and connectivity status.
+
+<div align="center">
+    <img src="assets/module-monitor.png" width="100%" alt="Branch Monitor" style="border-radius: 10px;">
+</div>
+
+### 3. Branch Terminal (Forms)
+**Data Entry Point.** Interface for managers to submit closing reports, inventory counts, and incidents.
+
+<div align="center">
+    <img src="assets/module-forms.png" width="100%" alt="Branch Forms" style="border-radius: 10px;">
+</div>
+
+### 4. IoT "Ghost" Telemetry
 *   **Hardware Simulation**: A Node.js script (`ghost_sensor.js`) acts as a virtual hardware layer, pushing synthetic sensor data to the cloud.
 *   **Fuel Monitoring**: Tracks diesel levels in liters across branch generators.
 *   **Cold Chain Defense**: Mocks temperature sensors in freezers (-20°C to -15°C) to prevent spoilage.
