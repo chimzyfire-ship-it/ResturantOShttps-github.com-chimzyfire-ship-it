@@ -9,6 +9,9 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Realtime-3ecf8e?style=for-the-badge&logo=supabase)](https://supabase.com/)
 [![PWA Ready](https://img.shields.io/badge/PWA-Offline_First-5A0FC8?style=for-the-badge&logo=pwa)](https://web.dev/progressive-web-apps/)
 
+> [!NOTE] 
+> For a detailed walkthrough of all modules, check the [User Guide](docs/GUIDE.md).
+
 </div>
 
 ---
